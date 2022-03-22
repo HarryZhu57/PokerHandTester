@@ -4,6 +4,8 @@ public class PokerTester {
     	
         HandEvaluator he = new HandEvaluator();
         
+        //Credit to John, Michael, and Hugo for help on initially making the code.
+        
         System.out.println("Chances of a pair in a poker hand: " + he.findPair(times));
         System.out.println("Chances of a three of a kind in a poker hand: " + he.findThree(times));
         System.out.println("Chances of a double pair in a poker hand: " + he.findDoublePair(times));
